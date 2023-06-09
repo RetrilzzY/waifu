@@ -160,6 +160,7 @@ h1 {
   background: transparent;
   border: none;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .zoomed-image-visible {
