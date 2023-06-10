@@ -93,7 +93,7 @@ h1 {
 }
 
 .image-row {
-  column-count: 3;
+  column-count: 4;
   column-gap: 4px;
 }
 
@@ -106,6 +106,12 @@ h1 {
 
 .waifu-image:not(:defined) {
   outline: none;
+}
+
+@media (max-width: 1024px) {
+  .image-row {
+    column-count: 3; 
+  }
 }
 
 @media (max-width: 768px) {
